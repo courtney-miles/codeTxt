@@ -1,0 +1,121 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:#e0e4ec;
+  height:100%;
+}
+
+form,
+fieldset {
+  border:none;
+  padding:0 0.5em;
+  margin:0;
+}
+
+form {
+  padding:0 0.5em;
+  height:100%;
+  position:relative;
+}
+
+#codeBtns {
+  padding:0.5em 0;
+  white-space:nowrap;
+}
+
+#textFld {
+  padding:0;
+  top:37px;
+  right:0.5em;
+  left:0.5em;
+  bottom:0.5em;
+  position:absolute;
+}
+
+#txt {
+  position:absolute;
+  width:100%;
+  height:100%;
+  border:1px solid #767a8a;
+  border-radius: 5px;
+  box-shadow:
+    inset 2px 2px 20px rgba(121, 124, 140, 0.5);
+  box-sizing: border-box;
+}
+
+button {
+  font-weight: 900;
+  font-size: 0.8em;
+  color:#FFF;
+  margin: 0;
+  border:1px solid #767a8a;
+  border-radius: 6px;
+  font-family: 'Courier New',Courier,monospace;
+  background-color:#a8adc3;
+  background-image: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.6) 0,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.5) 100%);
+  box-shadow:
+    inset -1px 0 1px rgba(255, 255, 255, 0.5),
+    inset 1px 0 1px rgba(255, 255, 255, 0.5),
+    inset 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow:
+      0px 0px 2px #000,
+      0px 1px 0px #333;
+  padding:0.15em 0.5em;
+}
+
+button:hover {
+  border:1px solid #767a8a;
+  background-color:#bcc1da;
+  background-image: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.6) 0,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.5) 100%);
+  box-shadow:
+    inset -1px 0 1px rgba(255, 255, 255, 0.5),
+    inset 1px 0 1px rgba(255, 255, 255, 0.5),
+    inset 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow:
+      0px 0px 3px #000,
+      0px 1px 0px #333;
+}
+
+#undo {
+  margin-left:0.5em;
+}
+
+#toHtml,
+#toHtml2,
+#toUrl,
+#toUpper,
+#toJs {
+  border-top-right-radius:0;
+  border-bottom-right-radius:0;
+  margin-left:0.25em;
+}
+
+#toHtml {
+  margin-left: 0;
+}
+
+#toHtml2,
+#fromHtml,
+#fromUrl,
+#toLower,
+#fromJs {
+  border-left-width: 0;
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+  margin-right: 0.25em;
+}
+
+#toHtml2 {
+  margin-right:0;
+  margin-left:0;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget defaultmode="application" version="1.0.1">
+  <widgetname>codeTxt</widgetname>
+  <description>Provides a simple interface for encoding and escaping strings for common web usages.</description>
+  <width>600</width>
+  <height>205</height>
+  <author>
+    <name>Courtney Miles</name>
+  </author>
+  <id>
+    <host>opera.com</host>
+    <name>codeTxt</name>
+    <revised>2012-01-23</revised>
+  </id>
+  <feature name="http://xmlns.opera.com/wcb" required="false">
+    <param name="widgetcontrolbuttons" value="false" />
+  </feature>
+  <icon>icons/16_widget_icon_codetxt.png</icon>
+  <icon>icons/32_widget_icon_codetxt.png</icon>
+  <icon>icons/64_widget_icon_codetxt.png</icon>
+  <icon>icons/128_widget_icon_codetxt.png</icon>
+</widget>
