@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color:#e0e4ec;
+  background-color:#F4F4F5;
   height:100%;
 }
 
@@ -41,6 +41,7 @@ form {
   box-shadow:
     inset 2px 2px 20px rgba(121, 124, 140, 0.5);
   box-sizing: border-box;
+  padding:5px;
 }
 
 button {
@@ -51,7 +52,7 @@ button {
   border:1px solid #767a8a;
   border-radius: 6px;
   font-family: 'Courier New',Courier,monospace;
-  background-color:#a8adc3;
+  background-color:#CECED0;
   background-image: -o-linear-gradient(
     top,
     rgba(255, 255, 255, 0.6) 0,

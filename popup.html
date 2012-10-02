@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>codeTxt - Text encoding and escaping</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="style/codetxt.css" />
+  <script type="text/javascript" src="script/codetxt.js"></script>
+</head>
+<body>
+  <form>
+    <fieldset id="codeBtns">
+      <button id="toHtml" type="button" title="Encode as HTML entities"><i>x</i>&rArr;HTML</button><!--
+      --><button id="toHtml2" type="button" title="Encode only &amp;, &lt; and &gt; as HTML entities"><i>x</i>&rArr;HTML*</button><!--
+      --><button id="fromHtml" type="button" title="Decode HTML entities">HTML&rArr;<i>x</i></button><!--
+      --><button id="toUrl" type="button" title="Encode as URI component"><i>x</i>&rArr;URL</button><!--
+      --><button id="fromUrl" type="button" title="Decode URI component">URL&rArr;<i>x</i></button><!--
+      --><button id="toUpper" type="button" title="Converts to upper case">UPPER</button><!--
+      --><button id="toLower" type="button" title="Converts to lower case">lower</button><!--
+      --><button id="toJs" type="button" title="Escape as JS variable"><i>x</i>&rArr;JS</button><!--
+      --><button id="fromJs" type="button" title="Unescape JS variable">JS&rArr;<i>x</i></button><!--
+      --><!--<button id="undo" type="button" title="Undo last conversion">Undo</button>-->
+    </fieldset>
+    <fieldset id="textFld">
+      <textarea id="txt"></textarea>
+    </fieldset>
+  </form>
+</body>
+</html>
